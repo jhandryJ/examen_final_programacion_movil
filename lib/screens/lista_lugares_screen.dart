@@ -27,13 +27,13 @@ class _ListaLugaresScreenState extends State<ListaLugaresScreen> {
     return Scaffold(
       appBar: AppBar(
         title: const Text('Lugares UIDE'),
-        bottom: PreferredSize(
-          preferredSize: const Size.fromHeight(20),
+        bottom: const PreferredSize(
+          preferredSize: Size.fromHeight(20),
           child: Padding(
-            padding: const EdgeInsets.only(bottom: 4),
+            padding: EdgeInsets.only(bottom: 4),
             child: Text(
               estudianteNombre,
-              style: const TextStyle(fontSize: 12, color: Colors.white70),
+              style: TextStyle(fontSize: 12, color: Colors.black54),
             ),
           ),
         ),
